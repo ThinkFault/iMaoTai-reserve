@@ -9,7 +9,7 @@ on:
     paths:
       - '.github/workflows/**'
   schedule:
-    - cron: '55 1 * * *'
+    - cron: '58 9 * * *'
   # allow manual trigger
   workflow_dispatch:
     logLevel:
@@ -23,7 +23,7 @@ on:
         - debug
 
 env:
-  TZ: 'UTC'
+  TZ: UTC+8
 
 permissions:
   contents: read
